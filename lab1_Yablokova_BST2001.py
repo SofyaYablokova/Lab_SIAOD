@@ -55,7 +55,7 @@ def shells(arr):
                 j = delta
                 delta = j - step
         step //= 2
-#<scnhfz Cjhnbhjdrf
+#Быстрая сортировка
 def quicks(arr, fst=0, lst=None):
     if lst == None:
         lst = len(arr) - 1
@@ -96,7 +96,7 @@ def tournaments(arr):
         index, x = tree[0]
         arr[j] = x
         tree[len(tree) - len(arr) - len(arr) % 2 + index] = None
-#Пиоамидальная Сортировка
+#Пирамидальная Сортировка
 def heapify(arr, n, i):
     largest = i
     l = 2 * i + 1
